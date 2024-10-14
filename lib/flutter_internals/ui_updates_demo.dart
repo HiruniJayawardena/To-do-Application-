@@ -39,28 +39,6 @@ class _UIUpdatesDemo extends State<UIUpdatesDemo> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                TextButton(
-                  onPressed: () {
-                    setState(() {
-                      _isUnderstood = false;
-                    });
-                  },
-                  child: const Text('No'),
-                ),
-                TextButton(
-                  onPressed: () {
-                    setState(() {
-                      _isUnderstood = true;
-                    });
-                  },
-                  child: const Text('Yes'),
-                ),
-              ],
-            ),
-            if (_isUnderstood) const Text('Awesome!'),
           ],
         ),
       ),
