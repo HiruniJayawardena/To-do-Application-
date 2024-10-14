@@ -10,6 +10,8 @@ class DemoButtons extends StatefulWidget{
 }
 
 class _DemoButtonsState extends State<DemoButtons>{
+  var _isUnderstood = false;
+  
   @override
   Widget build(BuildContext context) {
     return Column(
