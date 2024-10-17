@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_application/demo_buttons.dart';
 
 class UIUpdatesDemo extends StatefulWidget {
   const UIUpdatesDemo({super.key});
@@ -21,8 +22,8 @@ class _UIUpdatesDemo extends State<UIUpdatesDemo> {
   @override
   Widget build(BuildContext context) {
     print('UIUpdatesDemo BUILD called');
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
+    return const Padding(
+      padding: EdgeInsets.all(8.0),
       child: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -39,6 +40,7 @@ class _UIUpdatesDemo extends State<UIUpdatesDemo> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 24),
+            DemoButtons(),
           ],
         ),
       ),
