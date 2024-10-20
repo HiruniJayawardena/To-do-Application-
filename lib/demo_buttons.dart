@@ -13,7 +13,7 @@ class _DemoButtonsState extends State<DemoButtons>{
   var _isUnderstood = false;
 
   @override
-  Widget build(BuildContext context) {
+  build(BuildContext context) {
     mainAxisSize: MainAxisSize.min;
     return Column(
       children: [
@@ -38,8 +38,9 @@ class _DemoButtonsState extends State<DemoButtons>{
                 ),
               ],
             ),
-            if (_isUnderstood) const Text('Awesome!'),
+          if (_isUnderstood) const Text('Awesome!'),
       ],
+      
     );
   }
 }
