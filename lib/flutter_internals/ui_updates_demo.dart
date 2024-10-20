@@ -17,7 +17,7 @@ class UIUpdatesDemo extends StatefulWidget {
 }
 
 class _UIUpdatesDemo extends State<UIUpdatesDemo> {
-  var _isUnderstood = false;
+  // var _isUnderstood = false; //<- we don't need this now
 
   @override
   Widget build(BuildContext context) {
