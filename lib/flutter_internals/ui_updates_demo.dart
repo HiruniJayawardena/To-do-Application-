@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:to_do_application/demo_buttons.dart';
 
-class UIUpdatesDemo extends StatefulWidget {
+// class UIUpdatesDemo extends StatefulWidget { <changed the class name to statless 
+class UiUpdatesDemo extends StatelessWidget{
   const UIUpdatesDemo({super.key});
 
 //---------------------------------
