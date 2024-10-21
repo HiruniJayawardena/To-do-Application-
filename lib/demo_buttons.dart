@@ -13,9 +13,10 @@ class _DemoButtonsState extends State<DemoButtons>{
   var _isUnderstood = false;
 
   @override
-  build(BuildContext context) {
-    mainAxisSize: MainAxisSize.min;
+  Widget build(BuildContext context) {
+    print('DemoButtons build called');
     return Column(
+      mainAxisSize: MainAxisSize.min,
       children: [
         Row(
               mainAxisAlignment: MainAxisAlignment.center,
